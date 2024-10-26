@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Hasil">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="History Pesanan"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewBurger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cheese Burger: Rp 0"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewNasiGoreng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nasi Goreng: Rp 0"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewBakso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bakso: Rp 0"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textViewTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total: Rp 0"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

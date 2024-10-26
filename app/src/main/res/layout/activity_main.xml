@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/makanan1"
+            app:srcCompat="@drawable/buger" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:text="@string/krebbypatyy" />
+
+    <LinearLayout
+        android:id="@+id/kedua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="0dp">
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minus" />
+
+        <TextView
+            android:id="@+id/text_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/kosong" />
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menambah" />
+
+    </LinearLayout>
+
+<!-- Pesanan Ke 2 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/makanan2"
+            app:srcCompat="@drawable/nasi_goreng" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="3dp"
+        android:textStyle="bold"
+        android:text="@string/nasgor" />
+
+    <LinearLayout
+        android:id="@+id/ketiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="1dp">
+
+        <Button
+            android:id="@+id/bottom_minus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minus" />
+
+        <TextView
+            android:id="@+id/text_count2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/kosong" />
+
+        <Button
+            android:id="@+id/bottom_plus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menambah" />
+
+    </LinearLayout>
+
+    <!-- Pesanan Ke 3 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/makanan3"
+            app:srcCompat="@drawable/bakso" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/bakso"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/terakhir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="1dp">
+
+        <Button
+            android:id="@+id/bottom_minus3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minus" />
+
+        <TextView
+            android:id="@+id/text_count3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/kosong" />
+
+        <Button
+            android:id="@+id/bottom_plus3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menambah" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/selesai" />
+
+</LinearLayout>

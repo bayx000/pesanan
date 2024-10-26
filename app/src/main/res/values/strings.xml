@@ -1,0 +1,16 @@
+<resources>
+    <!--Gambar-->
+    <string name="app_name">pesanan</string>
+    <string name="makanan1">Burger Cheese</string>
+    <string name="makanan2">Nasi Goreng</string>
+    <string name="makanan3">Bakso</string>
+    <!--Text di Gambar-->
+    <string name="krebbypatyy">Cheese Burger</string>
+    <string name="nasgor">Nasi Goreng</string>
+    <string name="bakso">Bakso</string>
+    <!--bottom-->
+    <string name="minus">-</string>
+    <string name="menambah">+</string>
+    <string name="kosong">0</string>
+    <string name="selesai">Submit</string>
+</resources>
