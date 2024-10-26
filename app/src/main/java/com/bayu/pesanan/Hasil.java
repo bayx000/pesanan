@@ -14,10 +14,10 @@ public class Hasil extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hasil);
 
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) TextView textViewBurger = findViewById(R.id.textViewing);
-        TextView textViewNasiGoreng = findViewById(R.id.textView2);
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) TextView textViewBakso = findViewById(R.id.textView3);
-        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) TextView textViewTotal = findViewById(R.id.textViewend);
+        TextView textViewBurger = findViewById(R.id.textViewBurger);
+        TextView textViewNasiGoreng = findViewById(R.id.textViewNasiGoreng);
+        TextView textViewBakso = findViewById(R.id.textViewBakso);
+        TextView textViewTotal = findViewById(R.id.textViewTotal);
 
         int totalBurger = getIntent().getIntExtra("totalBurger", 0);
         int totalNasiGoreng = getIntent().getIntExtra("totalNasiGoreng", 0);

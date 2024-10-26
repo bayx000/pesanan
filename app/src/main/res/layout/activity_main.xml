@@ -8,6 +8,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!-- Pesanan Ke 1: Burger -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="120dp">
@@ -27,9 +28,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="2dp"
         android:textStyle="bold"
         android:text="@string/krebbypatyy" />
+
+    <!-- Harga Burger -->
+    <TextView
+        android:id="@+id/textViewPriceBurger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Rp 35.000" />
 
     <LinearLayout
         android:id="@+id/kedua"
@@ -61,7 +71,7 @@
 
     </LinearLayout>
 
-<!-- Pesanan Ke 2 -->
+    <!-- Pesanan Ke 2: Nasi Goreng -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="120dp">
@@ -81,9 +91,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_marginBottom="3dp"
+        android:layout_marginBottom="2dp"
         android:textStyle="bold"
         android:text="@string/nasgor" />
+
+    <!-- Harga Nasi Goreng -->
+    <TextView
+        android:id="@+id/textViewPriceNasiGoreng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Rp 25.000" />
 
     <LinearLayout
         android:id="@+id/ketiga"
@@ -115,8 +134,7 @@
 
     </LinearLayout>
 
-    <!-- Pesanan Ke 3 -->
-
+    <!-- Pesanan Ke 3: Bakso -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="120dp">
@@ -135,10 +153,19 @@
         android:id="@+id/textViewend"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
         android:gravity="center"
+        android:layout_marginBottom="2dp"
         android:text="@string/bakso"
         android:textStyle="bold" />
+
+    <!-- Harga Bakso -->
+    <TextView
+        android:id="@+id/textViewPriceBakso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Rp 15.000" />
 
     <LinearLayout
         android:id="@+id/terakhir"
